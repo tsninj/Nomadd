@@ -4,7 +4,7 @@
         "title": "Launch",
         "author": "Jeff Walker",
         "price": "29,900₮",
-        "image": "Publishing/launch.png",
+        "image": "/picture/Publishing/launch.png",
         "category": "Business"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Урагшаа",
         "author": "Howard Schultz",
         "price": "39,900₮",
-        "image": "Publishing/uragshaa.png",
+        "image": "/picture/Publishing/uragshaa.png",
         "category": "Business"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Патагониа",
         "author": "Иван Шүйнард",
         "price": "49,900₮",
-        "image": "Publishing/screen1.png",
+        "image": "/picture/Publishing/screen1.png",
         "category": "Biography"
     },
     {
@@ -28,7 +28,7 @@
         "title": "Үүсгэн байгуулагчид",
         "author": "Жимми Сони",
         "price": "39,900₮",
-        "image": "Publishing/Founders (1).png",
+        "image": "/picture/Publishing/Founders (1).png",
         "category": "Business"
     },
     {
@@ -36,7 +36,7 @@
         "title": "Headspace",
         "author": "Эмди Паддиком",
         "price": "29,900₮",
-        "image": "Publishing/headspace.png",
+        "image": "/picture/Publishing/headspace.png",
         "category": "Self-Help"
     },
     {
@@ -44,7 +44,7 @@
         "title": "Аналог",
         "author": "Дэвид Сакс",
         "price": "39,900₮",
-        "image": "Publishing/analog.png",
+        "image": "/picture/Publishing/analog.png",
         "category": "Technology"
     },
     {
@@ -52,7 +52,7 @@
         "title": "Анна",
         "author": "Эми Одел",
         "price": "39,900₮",
-        "image": "Publishing/anna.png",
+        "image": "/picture/Publishing/anna.png",
         "category": "Biography"
     },
     {
@@ -60,7 +60,7 @@
         "title": "Цаг төлөвлөгч дэвтэр",
         "author": "Кел Ньюпорт",
         "price": "34,900₮",
-        "image": "Publishing/timeplanner.png",
+        "image": "/picture/Publishing/timeplanner.png",
         "category": "Productivity"
     },
     {
@@ -68,7 +68,7 @@
         "title": "Бизнесийг энгийнээр",
         "author": "Доналд Миллер",
         "price": "29,900₮",
-        "image": "Publishing/biznes.png",
+        "image": "/picture/Publishing/biznes.png",
         "category": "Business"
     },
     {
@@ -76,7 +76,7 @@
         "title": "Буу Нян Ган",
         "author": "Жаред Даймонд",
         "price": "49,900₮",
-        "image": "Publishing/BuuNyanGan.png",
+        "image": "/picture/Publishing/BuuNyanGan.png",
         "category": "History"
     },
     {
@@ -84,7 +84,7 @@
         "title": "Бүтээ",
         "author": "Тони Фаделл",
         "price": "49,900₮",
-        "image": "Publishing/butee.png",
+        "image": "/picture/Publishing/butee.png",
         "category": "Business"
     },
     {
@@ -92,7 +92,7 @@
         "title": "Стори Бренд Бүтээх Нь",
         "author": "Доналд Миллер",
         "price": "29,900₮",
-        "image": "Publishing/storybrand.png",
+        "image": "/picture/Publishing/storybrand.png",
         "category": "Marketing"
     }
 ]

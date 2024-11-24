@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nomadd Bookstore</title>
     <link rel="stylesheet" href="/css/publishing.css">
-    
+    <link rel="stylesheet" href="/js/publishing.js">
 </head>
 <body>
     <nav>
@@ -29,100 +29,27 @@
         <input type="search" class="search-bar" placeholder="Search">
 
         <section class="book-grid">
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/launch.png" alt="Launch">
-                <h3>Launch</h3>
-                <p>Jeff Walker</p>
-                <p class="price">29,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/uragshaa.png" alt="Uragshaa">
-                <h3>Урагшаа</h3>
-                <p>Howard Schultz</p>
-                <p class="price">39,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/screen1.png" alt="Patagonia">
-                <h3>Патагониа</h3>
-                <p>Иван Шүйнард</p>
-                <p class="price">49,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/Founders (1).png" alt="Founders">
-                <h3>Үүсгэн байгуулагчид</h3>
-                <p>Жимми Сони</p>
-                <p class="price">39,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/headspace.png" alt="Headspace">
-                <h3>Headspace</h3>
-                <p>Эмди Паддиком</p>
-                <p class="price">29,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/analog.png" alt="Analog">
-                <h3>Аналог</h3>
-                <p>Дэвид Сакс</p>
-                <p class="price">39,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/anna.png" alt="Anna">
-                <h3>Анна</h3>
-                <p>Эми Одел</p>
-                <p class="price">39,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/timeplanner.png" alt="Timeplanner">
-                <h3>Цаг төлөвлөгч дэвтэр</h3>
-                <p>Кел Ньюпорт</p>
-                <p class="price">34,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/biznes.png" alt="BMS">
-                <h3>Бизнесийг энгийнээр</h3>
-                <p>Доналд Миллер</p>
-                <p class="price">29,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/BuuNyanGan.png" alt="BuuNyanGan">
-                <h3>Буу Нян Ган</h3>
-                <p>Жаред Даймонд</p>
-                <p class="price">49,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/butee.png" alt="Butee">
-                <h3>Бүтээ</h3>
-                <p>Тони Фаделл</p>
-                <p class="price">49,900₮</p>
-            </a>
-            <a href="#" class="book-card">
-                <img src="/picture/Publishing/storybrand.png" alt="StoryBrand">
-                <h3>Стори Бренд Бүтээх Нь</h3>
-                <p>Доналд Миллер</p>
-                <p class="price">29,900₮</p>
-            </a>
-
-
+            <!--dynamic -->
         </section>
 
         <h2>Худалдаалах бүх байршил</h2>
         <section class="buildings">
             <article class="building">
-                <img src="ic-tower.svg" alt="IC Tower">
+                <img src="/picture/Publishing/salbar1.jpg" alt="IC Tower">
                 <h3>IC TOWER</h3>
-                <p>Ic Tower</p>
+                <p> СБД, 1-р хороо, Парисын гудамж, 𝐈𝐂 𝐓𝐨𝐰𝐞𝐫, 203 тоот (Буянгийн зам дагуу) </p>
             </article>
             <section class="buildings">
                 <article class="building">
-                    <img src="ic-tower.svg" alt="IC Tower">
-                    <h3>IC TOWER</h3>
-                    <p>Sample address details here</p>
+                    <img src="/picture/Publishing/salbar3.jpg" alt="Central Tower">
+                    <h3>Central Tower</h3>
+                    <p>СБД, 8-р хороо, Сүхбаатарын талбай 2, 𝐂𝐞𝐧𝐭𝐫𝐚𝐥 𝐓𝐨𝐰𝐞𝐫 (2 давхарт)</p>
                 </article>
                 <section class="buildings">
                     <article class="building">
-                        <img src="ic-tower.svg" alt="IC Tower">
-                        <h3>IC TOWER</h3>
-                        <p>Sample address details here</p>
+                        <img src="/picture/Publishing/salbar2.jpg" alt=" Gerlug Vista">
+                        <h3>Gerlug Vista</h3>
+                        <p>Хан Уулын Emart цаана Gerlug vista хотхон 58/7 Coffee Namu</p>
                     </article>
 
 
@@ -162,7 +89,6 @@
     </footer>
 
     <script>
-        // Mobile menu toggle
         const menuButton = document.querySelector('.menu-toggle');
         const navMenu = document.querySelector('nav ul');
 
@@ -170,12 +96,146 @@
             navMenu.classList.toggle('active');
         });
 
-        // Close menu when clicking outside
         document.addEventListener('click', (e) => {
             if (!e.target.closest('nav')) {
                 navMenu.classList.remove('active');
             }
         });
+
+        const products = [
+    {
+        "id": 1,
+        "title": "Launch",
+        "author": "Jeff Walker",
+        "price": "29,900₮",
+        "image": "/picture/Publishing/launch.png",
+        "category": "Business"
+    },
+    {
+        "id": 2,
+        "title": "Урагшаа",
+        "author": "Howard Schultz",
+        "price": "39,900₮",
+        "image": "/picture/Publishing/uragshaa.png",
+        "category": "Business"
+    },
+    {
+        "id": 3,
+        "title": "Патагониа",
+        "author": "Иван Шүйнард",
+        "price": "49,900₮",
+        "image": "/picture/Publishing/screen1.png",
+        "category": "Biography"
+    },
+    {
+        "id": 4,
+        "title": "Үүсгэн байгуулагчид",
+        "author": "Жимми Сони",
+        "price": "39,900₮",
+        "image": "/picture/Publishing/Founders (1).png",
+        "category": "Business"
+    },
+    {
+        "id": 5,
+        "title": "Headspace",
+        "author": "Эмди Паддиком",
+        "price": "29,900₮",
+        "image": "/picture/Publishing/headspace.png",
+        "category": "Self-Help"
+    },
+    {
+        "id": 6,
+        "title": "Аналог",
+        "author": "Дэвид Сакс",
+        "price": "39,900₮",
+        "image": "/picture/Publishing/analog.png",
+        "category": "Technology"
+    },
+    {
+        "id": 7,
+        "title": "Анна",
+        "author": "Эми Одел",
+        "price": "39,900₮",
+        "image": "/picture/Publishing/anna.png",
+        "category": "Biography"
+    },
+    {
+        "id": 8,
+        "title": "Цаг төлөвлөгч дэвтэр",
+        "author": "Кел Ньюпорт",
+        "price": "34,900₮",
+        "image": "/picture/Publishing/timeplanner.png",
+        "category": "Productivity"
+    },
+    {
+        "id": 9,
+        "title": "Бизнесийг энгийнээр",
+        "author": "Доналд Миллер",
+        "price": "29,900₮",
+        "image": "/picture/Publishing/biznes.png",
+        "category": "Business"
+    },
+    {
+        "id": 10,
+        "title": "Буу Нян Ган",
+        "author": "Жаред Даймонд",
+        "price": "49,900₮",
+        "image": "/picture/Publishing/BuuNyanGan.png",
+        "category": "History"
+    },
+    {
+        "id": 11,
+        "title": "Бүтээ",
+        "author": "Тони Фаделл",
+        "price": "49,900₮",
+        "image": "/picture/Publishing/butee.png",
+        "category": "Business"
+    },
+    {
+        "id": 12,
+        "title": "Стори Бренд Бүтээх Нь",
+        "author": "Доналд Миллер",
+        "price": "29,900₮",
+        "image": "/picture/Publishing/storybrand.png",
+        "category": "Marketing"
+    }
+]
+
+
+        function renderProducts(productList) {
+            const productGrid = document.querySelector('.book-grid');
+            productGrid.innerHTML = ''; 
+
+            productList.forEach(product => {
+                const productCard = document.createElement('a');
+                productCard.classList.add('book-card');
+                productCard.href = "#";
+
+                productCard.innerHTML = `
+                    <img src="${product.image}" alt="${product.title}">
+                    <h3>${product.title}</h3>
+                    <p>${product.author}</p>
+                    <p class="price">${product.price}</p>
+                `;
+
+                productGrid.appendChild(productCard);
+            });
+        }
+
+        function filterProductsByCategory(category) {
+            if (!category) return products; 
+            return products.filter(product => product.category.toLowerCase() === category.toLowerCase());
+        }
+
+        function displayFilteredProducts(category) {
+            const filteredProducts = filterProductsByCategory(category);
+            renderProducts(filteredProducts);
+        }
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoryParam = urlParams.get('category');
+
+        displayFilteredProducts(categoryParam || '');
     </script>
 </body>
 </html>
