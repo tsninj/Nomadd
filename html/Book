@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CoffeeNamu">
     <title>Coffee Namu</title>
-    <link rel="stylesheet" href="testBook.css">
+    <link rel="stylesheet" href="/css/testBook.css">
     <script type="text/javascript" src="Book.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
