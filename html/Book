@@ -37,7 +37,7 @@
     </header>
 
     <section class="menu">
-        <img src="Publishing/PublishBK3.jpg">
+        <img src="/picture/Publishing/PublishBK3.jpg" alt="Cover">
     </section>
 
 
@@ -45,7 +45,7 @@
         <div class="search-container">
             <h2 href="#">← Номнууд</h2> 
             <input type="text" id="search-bar" placeholder="Search " />
-            <img id="filter-icon" src="Publishing/blakfilter.png" alt="Filter Icon" />
+            <img id="filter-icon" src="/picture/Publishing/blakfilter.png" alt="Filter Icon" />
         </div>
 
         <div id="filter-section" class="filter-section">
@@ -61,7 +61,7 @@
        
         <div class="cakes">
             <article class="idk">
-                <img src="Publishing/anna.png" alt="Strawberry cake">
+                <img src="/picture/Publishing/anna.png" alt="Anna the book">
                 <h3>Анна</h3>
                 <h5>Эми Одел</h5>
                 
@@ -69,7 +69,7 @@
                 <p class="price">39,900₮</p>
             </article>
             <article>
-                <img src="Publishing/analog.png" alt="Oreo cake">
+                <img src="/picture/Publishing/analog.png" alt="Analog the book">
                 <h3>Аналог эргэн ирсэн нь</h3>
                 <h5>Жаред Даймонд</h5>
                 
@@ -77,7 +77,7 @@
                 <p class="price">39,900₮</p>
             </article>
             <article>
-                <img src="Publishing/biznes.png" alt="Real Tiramisu cake">
+                <img src="/picture/Publishing/biznes.png" alt="Biznes book">
                 <h3>Бизнесийг энгийнээс</h3>
                 <h5>Доналд Миллер</h5>
                 
@@ -85,7 +85,7 @@
                 <p class="price">87,800₮</p>
             </article>
             <article>
-                <img src="Publishing/timeplanner.png" alt="Real Tiramisu cake">
+                <img src="/picture/Publishing/timeplanner.png" alt="Time planner">
                 <h3>Цаг төлөвлөгч дэвтэр</h3>
                 <h5>Кел Ньюпорт</h5>
                 
@@ -99,7 +99,7 @@
 
         <div class="cakes">
             <article>
-                <img src="Publishing/butee.png" alt="Strawberry cake">
+                <img src="/picture/Publishing/butee.png" alt="Butee">
                 <div class="pat">
                 <h3>Бүтээ</h3>
                 <h5>Тони Фаделл</h5>
@@ -109,7 +109,7 @@
                 <p class="price">49,900₮</p>
             </article>
             <article>
-                <img src="Publishing/headspace.png" alt="Oreo cake">
+                <img src="/picture/Publishing/headspace.png" alt="Headspace book">
                 <h3>Headspace</h3>
                 <h5>Энди Паддиком</h5>
                 
@@ -117,7 +117,7 @@
                 <p class="price">29,900₮</p>
             </article>
             <article>
-                <img src="Publishing/launch.png" alt="Real Tiramisu cake">
+                <img src="/picture/Publishing/launch.png" alt="Launch book">
                 <h3>Launch</h3>
                 <h5>Ховард Шульц</h5>
                 
@@ -125,7 +125,7 @@
                 <p class="price">29,900₮</p>
             </article>
             <article>
-                <img src="Publishing/anna.png" alt="Strawberry cake">
+                <img src="/picture/Publishing/anna.png" alt="Book">
                 <h3>Анна</h3>
                 <h5>Эми Одел</h5>
                 
@@ -136,7 +136,7 @@
 
         <div class="cakes">
             <article>
-                <img src="Publishing/screen1.png" alt="Strawberry cake">
+                <img src="/picture/Publishing/screen1.png" alt="Book">
                 <h3>Патагониа</h3>
                 <h5>Ивон Шүйнард</h5>
                 
@@ -145,7 +145,7 @@
                 
             </article>
             <article>
-                <img src="Publishing/storybrand.png" alt="Oreo cake">
+                <img src="/picture/Publishing/storybrand.png" alt="Story">
                 <h3>Стори Бренд Бүтээх нь</h3>
                 <h5>Доналд Миллер</h5>
                 
@@ -153,7 +153,7 @@
                 <p class="price">29,900₮</p>
             </article>
             <article>
-                <img src="Publishing/screen1.png" alt="Real Tiramisu cake">
+                <img src="/picture/Publishing/screen1.png" alt="book">
                 <h3>Цаг төлөвлөгч дэвтэр</h3>
                 <h5>Кел Ньюпорт</h5>
                 
@@ -161,7 +161,7 @@
                 <p class="price">34,900₮</p>
             </article>
             <article>
-                <img src="Publishing/anna.png" alt="Oreo cake">
+                <img src="/picture/Publishing/anna.png" alt="Anna">
                 <h3>Аналог эргэн ирсэн нь</h3>
                 <h5>Дэвид Сакс</h5>
                 
@@ -192,19 +192,19 @@
         <h2>Салбарууд</h2>
         <div class="salbariin-medeelel">
             <article>
-                <img src="Publishing/salbar1.jpg" alt="salbar1">
+                <img src="/picture/Publishing/salbar1.jpg" alt="salbar1">
                 <h3>IC TOWER</h3>
                 <p>Хаяг: Улаанбаатар хот, Сүхбаатар дүүрэг Парисийн гудамж, IC TOWER-ын 2 давхарт <br>Ажлын өдрүүдэд: 08:00
                     - 21:00 Амралтын өдрүүдэд: 09:00 - 21:00 <br> Утас: 7772 4422</p>
             </article>
             <article>
-                <img src="Publishing/salbar2.jpg" alt="salbar2">
+                <img src="/picture/Publishing/salbar2.jpg" alt="salbar2">
                 <h3>GERLUG VISTA</h3>
                 <p>Хаяг: Улаанбаатар хот, Хан уул дүүрэ GERLUG VISTA 58/7 <br>Ажлын өдрүүдэд: 08:00 - 21:00 Амралтын
                     өдрүүдэд: 09:00 - 21:00 <br>Утас: 7772 4422</p>
             </article>
             <article>
-                <img src="Publishing/salbar3.jpg" alt="salbar3">
+                <img src="/picture/Publishing/salbar3.jpg" alt="salbar3">
                 <h3>CENTRAL TOWER</h3>
                 <p>Хаяг: Улаанбаатар хот, Сүхбаатар дүүрэг CENTAL TOWER-ын 2 давхарт <br> Ажлын өдрүүдэд: 08:00 - 21:00
                     Амралтын өдрүүдэд: 09:00 - 21:00 <br>Утас: 7772 4422</p>
@@ -248,9 +248,9 @@
                 <li><a href="tel:+123456789">Phone: 1234567890</a></li>
                 <li><a href="mailto:m.bluth@example.com">Email: company@email.com</a></li>
                 <li><a href="https://www.google.com/maps"> Location: 100 Smart Street, LA, USA</a></li>
-                <li><a href="https://www.facebook.com/"><img src="Publishing/fb.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com/"><img src="Publishing/ig-removebg-preview.png" alt="Instagram"></a>
-                <a href="https://www.twitter.com"><img src="Publishing/x.png" alt="X"></a></li>
+                <li><a href="https://www.facebook.com/"><img src="/picture/Publishing/fb.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="/picture/Publishing/ig-removebg-preview.png" alt="Instagram"></a>
+                <a href="https://www.twitter.com"><img src="/picture/Publishing/x.png" alt="X"></a></li>
             </ul>
         </div>
         <div class="footer-area">
